@@ -43,7 +43,6 @@ def segmentation_ui():
                 st.error("Number of base addresses must equal number of limits.")
                 return
 
-            # Accept both newline and space-separated pairs
             raw_pairs = addr_input.replace("\n", " ").split()
             results   = []
 
@@ -103,7 +102,6 @@ def segmentation_ui():
                 m2.metric("✅ Valid",        valid)
                 m3.metric("❌ Faults",       faults)
 
-                # Segment table summary
                 st.markdown("#### 🗺️ Segment Table")
                 seg_data = [
                     {"Segment": i, "Base": base_list[i], "Limit": limit_list[i],
