@@ -145,7 +145,7 @@ st.sidebar.markdown(
 )
 st.sidebar.markdown(
     "<p style='font-family:JetBrains Mono,monospace;font-size:11px;"
-    "color:#6B8F71;margin-bottom:18px;'>MemSim v2.0</p>",
+    "color:#6B8F71;margin-bottom:18px;'>Memora v2.0</p>",
     unsafe_allow_html=True,
 )
 
@@ -264,6 +264,6 @@ st.markdown("""
     color: #3A5A3E;
     text-align: center;
 '>
-    MemSim v2.0 · FIFO · LRU · OPT · Paging · Segmentation · Virtual Memory
+    Memora v2.0 · FIFO · LRU · OPT · Paging · Segmentation · Virtual Memory
 </div>
 """, unsafe_allow_html=True)
